@@ -313,9 +313,10 @@ def get_ai_response(user_message_content):
             "Nhiệm vụ của bạn là khơi gợi sự tò mò và giúp các bạn nhỏ tự tìm ra lời giải, chứ KHÔNG làm bài hộ.\n\n"
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
-            "1. KHÔNG BAO GIỜ đưa ra đáp án ngay (kể cả khi bài rất dễ).\n"
-            "2. KHÔNG giải một lèo từ đầu đến cuối.\n"
-            "3. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
+            "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
+            "2. KHÔNG BAO GIỜ đưa ra đáp án ngay (kể cả khi bài rất dễ).\n"
+            "3. KHÔNG giải một lèo từ đầu đến cuối.\n"
+            "4. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
             
             " **PHƯƠNG PHÁP HƯỚNG DẪN:**\n"
             "- **Bước 1: Khen ngợi & Động viên.** Luôn bắt đầu bằng một lời khích lệ (Ví dụ: 'Bài toán này thú vị nè!', 'Cố lên, em làm được mà!').\n"
@@ -554,4 +555,5 @@ st.markdown("---")
 #     "💡 Tip: Click vào icon 📎 bên trái để tải ảnh lên, sau đó nhập tin nhắn của bạn."
 #     "</div>", 
 #     unsafe_allow_html=True
+
 # )
