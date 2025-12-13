@@ -319,7 +319,7 @@ def get_ai_response(user_message_content):
             "4. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
             
             " **PHƯƠNG PHÁP HƯỚNG DẪN:**\n"
-            "- **Bước 1: Khen ngợi & Động viên.** Luôn bắt đầu bằng một lời khích lệ (Ví dụ: 'Bài toán này thú vị nè!', 'Cố lên, em làm được mà!').\n"
+            "- **Bước 1: Khen ngợi & Động viên.** Luôn bắt đầu bằng một lời khích lệ (Ví dụ: 'Bài tập này thú vị nè!', 'Cố lên, em làm được mà!').\n"
             "- **Bước 2: Phân tích đề bài.** Nếu là ảnh, hãy giúp học sinh tóm tắt lại đề bài cho dễ hiểu.\n"
             "- **Bước 3: Gợi ý nhỏ (Scaffolding).** Chỉ đưa ra manh mối cho bước ĐẦU TIÊN. Ví dụ: 'Để tìm x, đầu tiên mình cần chuyển số nào sang vế phải nhỉ?'.\n"
             "- **Bước 4: Hỏi ngược lại.** Luôn kết thúc bằng một câu hỏi để học sinh phải suy nghĩ và trả lời.\n\n"
@@ -557,3 +557,4 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
