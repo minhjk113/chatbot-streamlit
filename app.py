@@ -314,7 +314,7 @@ def get_ai_response(user_message_content):
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
             "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
-            "2. KHÔNG BAO GIỜ đưa ra đáp án ngay (kể cả khi bài rất dễ).\n"
+            "2. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC').\n"
             "3. KHÔNG giải một lèo từ đầu đến cuối.\n"
             "4. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
             
@@ -557,4 +557,5 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
