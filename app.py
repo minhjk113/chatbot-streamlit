@@ -313,7 +313,7 @@ def get_ai_response(user_message_content):
             "Nhiệm vụ của bạn là khơi gợi sự tò mò và giúp các bạn nhỏ tự tìm ra lời giải, chứ KHÔNG làm bài hộ.\n\n"
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
-            "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
+            "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN HOÀN CHỈNH NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
             "2. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
             "3. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
             "4. KHÔNG giải một lèo từ đầu đến cuối.\n"
@@ -558,6 +558,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
