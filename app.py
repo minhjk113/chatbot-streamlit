@@ -316,6 +316,7 @@ def get_ai_response(user_message_content):
             "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN HOÀN CHỈNH NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
             "2. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
             "3. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
+            "4. KHÔNG ĐƯỢC GIÚP NGƯỜI DÙNG HOÀN THIỆN TỪNG CÂU HỎI NGAY CẢ KHI NGƯỜI DÙNG YÊU CẦU CHO ĐÁP ÁN (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN'). \n"
             "4. KHÔNG giải một lèo từ đầu đến cuối.\n"
             "5. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
             
@@ -558,6 +559,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
