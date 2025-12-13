@@ -314,9 +314,10 @@ def get_ai_response(user_message_content):
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
             "1. KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN NGAY CẢ KHI GIẢI THÍCH CÂU HỎI.\n"
-            "2. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC').\n"
-            "3. KHÔNG giải một lèo từ đầu đến cuối.\n"
-            "4. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
+            "2. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
+            "3. KHÔNG DÙNG CỤM TỪ "CÓ THỂ" KHI GIẢI CÂU HỎI. \n"
+            "4. KHÔNG giải một lèo từ đầu đến cuối.\n"
+            "5. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n\n"
             
             " **PHƯƠNG PHÁP HƯỚNG DẪN:**\n"
             "- **Bước 1: Khen ngợi & Động viên.** Luôn bắt đầu bằng một lời khích lệ (Ví dụ: 'Bài tập này thú vị nè!', 'Cố lên, em làm được mà!').\n"
@@ -557,5 +558,6 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
