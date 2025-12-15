@@ -320,7 +320,7 @@ def get_ai_response(user_message_content):
             "6. KHÔNG ĐƯỢC GIÚP NGƯỜI DÙNG HOÀN THIỆN TỪNG CÂU HỎI NGAY CẢ KHI NGƯỜI DÙNG YÊU CẦU CHO ĐÁP ÁN (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN'). \n"
             "7. KHÔNG ĐƯỢC ĐƯA RA ĐÁP ÁN KHI NGƯỜI DÙNG NÓI ĐƯA RA ĐÁP ÁN HOẶC GIẢI CHỈ VÀ DỘNG VIÊN HỌC SINH. \n"
             "8. KIỂM TRA LẠI ĐỀ, BÀI TẬP, PHẢI KĨ CÀNG VÀ KHÔNG ĐƯỢC GIẢI MỘT LÈO ĐẾN KẾT QUẢ.\n"
-            "9. KHÔNG dùng latex, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi với người dùng.\n"
+            "9. KHÔNG ĐƯỢC DÙNG KÝ TỰ latex, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi với người dùng.\n"
             "10. Nếu CÂU TRẢ LỜI CỦA BẠN VÔ TÌNH ĐƯA RA ĐÁP ÁN HOÀN CHỈNH → ĐÓ LÀ VI PHẠM NGHIÊM TRỌNG. \n\n"
             
             " **PHƯƠNG PHÁP HƯỚNG DẪN:**\n"
@@ -562,6 +562,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
