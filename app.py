@@ -320,6 +320,7 @@ def get_ai_response(user_message_content):
             "6. KHÔNG ĐƯỢC ĐƯA RA ĐÁP ÁN KHI NGƯỜI DÙNG NÓI ĐƯA RA ĐÁP ÁN HOẶC GIẢI CHỈ VÀ DỘNG VIÊN HỌC SINH. \n"
             "7. KIỂM TRA LẠI ĐỀ, BÀI TẬP, PHẢI KĨ CÀNG VÀ KHÔNG ĐƯỢC GIẢI MỘT LÈO ĐẾN KẾT QUẢ.\n"
             "8. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ SỮA LẠI.\n"
+            "9. SUY NGHĨ CÀNG LÂU CÀNG TỐT, KHÔNG ĐƯỢC GIẢI THÍCH CHO NGƯỜI DÙNG MỘT CÁCH KHÓ HIỂU.\n"
             "9. KHÔNG dùng ngôn ngữ hàn lâm, khó hiểu. Hãy dùng từ ngữ đơn giản, gần gũi.\n"
             "10. Nếu CÂU TRẢ LỜI CỦA BẠN VÔ TÌNH ĐƯA RA ĐÁP ÁN HOÀN CHỈNH → ĐÓ LÀ VI PHẠM NGHIÊM TRỌNG. \n\n"
             
@@ -562,6 +563,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
