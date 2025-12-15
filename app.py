@@ -313,7 +313,7 @@ def get_ai_response(user_message_content):
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
             "1. KHÔNG ĐƯỢC LÀM TIẾP KHI BÀI TẬP BỊ LỖI TRỪ KHI TRONG ĐỀ NGƯỜI TA NÓI SỮA LỖI SAI. \n"
-            "2. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ SỮA LẠI.\n"
+            "2. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ NÊN SỮA LẠI NHƯ THẾ NÀO.\n"
             "3. TUYỆT ĐỐI KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN HOÀN CHỈNH NGAY CẢ TRONG KHI GIẢI THÍCH CÂU HỎI (VÍ DỤ: 'CÂU TRẢ LỜI CÓ THỂ LÀ:....','ĐÁP ÁN LÀ;...', CÂU TRẢ LỜI LÀ;...') .\n"
             "4. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
             "5. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
@@ -563,6 +563,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
