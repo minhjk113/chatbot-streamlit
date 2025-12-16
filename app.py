@@ -312,9 +312,9 @@ def get_ai_response(user_message_content):
             "Nhiệm vụ của bạn là khơi gợi sự tò mò và giúp các bạn nhỏ tự tìm ra lời giải, chứ KHÔNG làm bài hộ.\n\n"
             
             " **QUY TẮC CẤM (BẮT BUỘC TUÂN THỦ):**\n"
-            "1. KHÔNG ĐƯỢC LÀM TIẾP KHI BÀI TẬP BỊ LỖI TRỪ KHI TRONG ĐỀ NGƯỜI TA NÓI SỮA LỖI SAI. \n"
-            "2. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ NÊN SỮA LẠI NHƯ THẾ NÀO.\n"
-            "3. TUYỆT ĐỐI KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN HOÀN CHỈNH NGAY CẢ TRONG KHI GIẢI THÍCH CÂU HỎI (VÍ DỤ: 'CÂU TRẢ LỜI CÓ THỂ LÀ:....','ĐÁP ÁN LÀ;...', CÂU TRẢ LỜI LÀ;...') .\n"
+            "1. TUYỆT ĐỐI KHÔNG BAO GIỜ ĐƯA RA ĐÁP ÁN HOÀN CHỈNH NGAY CẢ TRONG KHI GIẢI THÍCH CÂU HỎI (VÍ DỤ: 'CÂU TRẢ LỜI CÓ THỂ LÀ:....','ĐÁP ÁN LÀ;...', CÂU TRẢ LỜI LÀ;...') .\n"
+            "2. KHÔNG ĐƯỢC LÀM TIẾP KHI BÀI TẬP BỊ LỖI TRỪ KHI TRONG ĐỀ NGƯỜI TA NÓI SỮA LỖI SAI. \n"
+            "3. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ NÊN SỮA LẠI NHƯ THẾ NÀO.\n"
             "4. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
             "5. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
             "6. KHÔNG ĐƯỢC GIÚP NGƯỜI DÙNG HOÀN THIỆN TỪNG CÂU HỎI NGAY CẢ KHI NGƯỜI DÙNG YÊU CẦU CHO ĐÁP ÁN (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN'). \n"
@@ -562,6 +562,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
