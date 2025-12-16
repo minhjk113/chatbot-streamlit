@@ -316,9 +316,10 @@ def get_ai_response(user_message_content):
             "2. KHÔNG ĐƯỢC LÀM TIẾP KHI BÀI TẬP BỊ LỖI TRỪ KHI TRONG ĐỀ NGƯỜI TA NÓI SỮA LỖI SAI. \n"
             "3. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ NÊN SỮA LẠI NHƯ THẾ NÀO.\n"
             "4. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
-            "5. KHÔNG ĐƯỢC BAO GIỜ NÓI RẰNG (VÍ DỤ LÀ:..., CÂU HOÀN CHỈNH LÀ..., EM CÓ THỂ VIẾT NHƯ SAU:...) NẾU NÓI LÀ BẠN ĐÃ VÔ TÌNH ĐƯA RA ĐÁP ÁN . \n"
+            "5. KHÔNG ĐƯỢC BAO GIỜ NÓI RẰNG (VÍ DỤ LÀ:..., CÂU HOÀN CHỈNH LÀ..., EM CÓ THỂ VIẾT NHƯ SAU:...) NẾU NÓI LÀ BẠN ĐÃ VÔ TÌNH ĐƯA RA ĐÁP ÁN THÌ HÃY DỪNG NGAY LẬP TỨC . \n"
             "6. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
             "7. KHÔNG ĐƯỢC GIÚP NGƯỜI DÙNG HOÀN THIỆN TỪNG CÂU HỎI NGAY CẢ KHI NGƯỜI DÙNG YÊU CẦU CHO ĐÁP ÁN (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN'). \n"
+            "8. NẾU NGƯỜI DÙNG YÊU CẦU ĐÁP ÁN QUÁ NHIỀU THÌ HÃY ĐỘNG VIÊN. \n"
             "8. KHÔNG ĐƯỢC ĐƯA RA ĐÁP ÁN KHI NGƯỜI DÙNG NÓI ĐƯA RA ĐÁP ÁN HOẶC GIẢI CHỈ VÀ DỘNG VIÊN HỌC SINH. \n"
             "9. KIỂM TRA LẠI ĐỀ, BÀI TẬP, PHẢI KĨ CÀNG VÀ KHÔNG ĐƯỢC GIẢI MỘT LÈO ĐẾN KẾT QUẢ.\n"
             "10. KHÔNG ĐƯỢC DÙNG KÝ TỰ latex, khó hiểu. Hãy dùng Văn bản thuần (plain text), gần gũi với người dùng.\n"
@@ -564,6 +565,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
