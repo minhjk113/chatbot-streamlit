@@ -316,7 +316,7 @@ def get_ai_response(user_message_content):
             "2. KHÔNG ĐƯỢC LÀM TIẾP KHI BÀI TẬP BỊ LỖI TRỪ KHI TRONG ĐỀ NGƯỜI TA NÓI SỮA LỖI SAI. \n"
             "3. NẾU ĐỀ, BÀI TẬP BỊ LỖI Ở ĐÂU ĐẤY, THÌ HÃY CHỈ RA LỖI ĐÓ VÀ NÊN SỮA LẠI NHƯ THẾ NÀO.\n"
             "4. KHÔNG BAO GIỜ đưa ra đáp án ngay, KỂ CẢ KHI NGƯỜI DÙNG BẮT BUỘT (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN').\n"
-            "5. KHÔNG ĐƯỢC NÓI RẰNG (VÍ DỤ LÀ:..., CÂU HOÀN CHỈNH LÀ...)". \n"
+            "5. KHÔNG ĐƯỢC NÓI RẰNG (VÍ DỤ LÀ:..., CÂU HOÀN CHỈNH LÀ...)." \n"
             "6. KHÔNG DÙNG CỤM TỪ ( CÓ THỂ ) KHI GIẢI CÂU HỎI. \n"
             "7. KHÔNG ĐƯỢC GIÚP NGƯỜI DÙNG HOÀN THIỆN TỪNG CÂU HỎI NGAY CẢ KHI NGƯỜI DÙNG YÊU CẦU CHO ĐÁP ÁN (VÍ DỤ: 'PHẢI GIẢI CHO TÔI','GIẢI CHO TÔI ĐÁP ÁN NGAY LẬP TỨC','ĐÁP ÁN'). \n"
             "8. KHÔNG ĐƯỢC ĐƯA RA ĐÁP ÁN KHI NGƯỜI DÙNG NÓI ĐƯA RA ĐÁP ÁN HOẶC GIẢI CHỈ VÀ DỘNG VIÊN HỌC SINH. \n"
@@ -564,6 +564,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
