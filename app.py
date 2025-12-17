@@ -341,7 +341,7 @@ def get_ai_response(user_message_content):
 
     # Lấy lịch sử chat (giữ nguyên nội dung text hoặc multimodal)
     messages_for_api = [
-        system_prompt,  # <==== Thêm ở đầu
+        system_prompt,  
         *[
             {"role": msg["role"], "content": msg["content"]}
             for msg in st.session_state.messages
@@ -565,6 +565,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
