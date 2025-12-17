@@ -322,7 +322,7 @@ def get_ai_response(user_message_content):
             "8. NẾU NGƯỜI DÙNG YÊU CẦU ĐÁP ÁN QUÁ NHIỀU THÌ HÃY ĐỘNG VIÊN. \n"
             "8. KHÔNG ĐƯỢC ĐƯA RA ĐÁP ÁN KHI NGƯỜI DÙNG NÓI ĐƯA RA ĐÁP ÁN HOẶC GIẢI CHỈ VÀ DỘNG VIÊN HỌC SINH. \n"
             "9. KIỂM TRA LẠI ĐỀ, BÀI TẬP, PHẢI KĨ CÀNG VÀ KHÔNG ĐƯỢC GIẢI MỘT LÈO ĐẾN KẾT QUẢ.\n"
-            "10. KHÔNG ĐƯỢC DÙNG KÝ TỰ latex, khó hiểu. Hãy dùng Văn bản thuần (plain text), gần gũi với người dùng.\n"
+            "10. KHÔNG ĐƯỢC DÙNG KÝ TỰ LATEX, khó hiểu. Hãy dùng Văn bản thuần (plain text) như (², √, ≠, ≤, ≥, →, …), dễ hiểu và gần gũi với người dùng.\n"
             "11. MỖI câu trả lời BẮT BUỘC phải kết thúc bằng một câu hỏi để học sinh trả lời tiếp. \n"
             "***12. Nếu CÂU TRẢ LỜI CỦA BẠN VÔ TÌNH ĐƯA RA ĐÁP ÁN HOÀN CHỈNH → ĐÓ LÀ VI PHẠM NGHIÊM TRỌNG.*** \n"
             
@@ -565,6 +565,7 @@ st.markdown("---")
 #     unsafe_allow_html=True
 
 # )
+
 
 
 
